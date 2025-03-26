@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'lulc_classifiation.urls'
+ROOT_URLCONF = 'lulc.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'lulc_classifiation.wsgi.application'
+WSGI_APPLICATION = 'lulc.wsgi.application'
 
 
 # Database
