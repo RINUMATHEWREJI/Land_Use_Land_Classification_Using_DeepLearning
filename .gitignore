@@ -1,0 +1,8 @@
+# Ignore all .h5 files
+*.h5
+
+# Ignore the models directory
+models/
+
+# Ignore temporary files
+*~
