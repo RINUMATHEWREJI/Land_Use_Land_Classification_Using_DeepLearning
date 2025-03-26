@@ -1,0 +1,21 @@
+{% load static %}  <!-- Load Static Files -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">  <!-- Link to CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <img src="{{ image_url }}" alt="Uploaded Image" class="result-image">
+        <p class="prediction-text">Predicted Class: <strong>{{ label }}</strong></p>
+        <a href="/" class="upload-another">Upload Another</a>
+    </div>
+
+</body>
+</html>
